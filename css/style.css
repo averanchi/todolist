@@ -1,0 +1,27 @@
+* {
+  box-sizing: border-box;
+}
+
+.App {
+  max-width: 1500px;
+  height: 80vh;
+  min-height: 800px;
+  margin: 0 auto;
+  border: 1px black solid;
+  border-radius: 44px;
+  margin-top: 50px;
+}
+.App .main__container {
+  display: flex;
+  min-height: 100%;
+}
+.App .main__container__left {
+  flex: 0 0 auto;
+  width: 30%;
+  border-right: 1px grey solid;
+  padding: 100px 20px 100px 30px;
+}
+.App .main__container__right {
+  flex: 0 0 auto;
+  width: 70%;
+}/*# sourceMappingURL=style.css.map */

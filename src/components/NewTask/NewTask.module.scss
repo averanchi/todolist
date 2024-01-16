@@ -1,0 +1,39 @@
+.root {
+  display: flex;
+  gap: 10px;
+  margin-bottom: 30px;
+
+  input {
+    padding: 15px;
+    font-size: 30px;
+    border: none;
+    border-radius: 20px;
+    background: rgba(0, 0, 0, 0.2);
+    min-width: 600px;
+    overflow: scroll;
+
+    &:focus {
+      outline: none;
+    }
+  }
+
+  select {
+    padding: 15px;
+    font-size: 30px;
+    border: none;
+    border-radius: 20px;
+    background: rgba(0, 0, 0, 0.2);
+
+    &:focus {
+      outline: none;
+    }
+  }
+
+  .add {
+    padding: 15px 40px;
+    font-size: 30px;
+    border-radius: 20px;
+    background: rgba(0, 0, 0, 0.2);
+    cursor: pointer;
+  }
+}

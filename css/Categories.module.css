@@ -1,0 +1,12 @@
+.main ul {
+  list-style: none;
+  color: #000;
+  font-family: SF Pro;
+  font-size: 30px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+.main ul li:not(:last-child) {
+  margin-bottom: 30px;
+}/*# sourceMappingURL=Categories.module.css.map */

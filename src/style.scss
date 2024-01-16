@@ -1,0 +1,40 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  min-height: 100vh;
+  padding-bottom: 50px;
+}
+
+.App {
+  max-width: 1600px;
+  padding-bottom: 50px;
+  min-height: 800px;
+  margin: 0 auto;
+  box-shadow: 5px 5px 20px 5px rgba($color: black, $alpha: 0.15);
+  border-radius: 44px;
+  margin-top: 50px;
+
+  .main__container {
+    display: flex;
+    min-height: 100%;
+
+    &__left {
+      flex: 0 0 auto;
+      width: calc(30%);
+      border-right: 1px rgb(221, 221, 221) solid;
+      display: flex;
+      justify-content: center;
+      padding-top: 150px;
+    }
+
+    &__right {
+      flex: 0 0 auto;
+      width: calc(70%);
+      padding: 70px 50px 50px 50px;
+    }
+  }
+}
